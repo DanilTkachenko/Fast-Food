@@ -5,8 +5,8 @@ export function burger () {
 
 	// Functional
 	burger.addEventListener('click', function () {
-		burger.classList.toggle('header__menu-burger_active');
-		nav.classList.toggle('nav_active');
+		burger.classList.toggle('active');
+		nav.classList.toggle('active');
 		document.body.classList.toggle('noscroll');
 	});
 }
