@@ -416,6 +416,7 @@ a {
 @media(max-width: 1000px) {
 	.food-list__content {
 		gap: 10px;
+	}
 	.feedback {
 		padding: 65px 5px 195px 5px;
 	}
