@@ -414,14 +414,16 @@ a {
 	}
 }
 @media(max-width: 1000px) {
-	.download-menu__title {
-		font-size: 30px;
-	}
+	.food-list__content {
+		gap: 10px;
 	.feedback {
 		padding: 65px 5px 195px 5px;
 	}
 	.feedback__content {
 		justify-content: space-between;
+	}
+	.download-menu__title {
+		font-size: 30px;
 	}
 }
 @media(max-width: 920px) {
